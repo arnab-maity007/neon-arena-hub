@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Welcome to future of eSports
 
 ## Project info
 
@@ -8,11 +8,10 @@
 
 There are several ways of editing your application.
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4ac9cbbe-0c61-4c8b-a920-b5b16241e346) and start prompting.
+Simply visit the (https://lovable.dev/projects/4ac9cbbe-0c61-4c8b-a920-b5b16241e346) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Changes made will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
