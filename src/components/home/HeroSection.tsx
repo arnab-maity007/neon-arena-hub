@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -23,7 +22,7 @@ const HeroSection = () => {
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
             Join the most transparent, secure, and player-focused esports tournament platform. 
-            Whether you're a tournament organizer or a competitive player, NeonArena has you covered.
+            Whether you're a tournament organizer or a competitive player, ArenaX has you covered.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mt-8">

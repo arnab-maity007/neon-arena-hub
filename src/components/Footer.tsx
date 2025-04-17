@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container px-4 mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h3 className="text-xl font-bold text-neon-blue">NEON<span className="text-neon-purple">ARENA</span></h3>
+            <h3 className="text-xl font-bold text-neon-blue">ARENA<span className="text-neon-purple">X</span></h3>
             <p className="text-muted-foreground max-w-xs">
               The future of esports tournaments starts here. Join the revolution in transparent, secure tournament management.
             </p>
@@ -95,7 +95,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} NeonArena. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} ArenaX. All rights reserved.</p>
         </div>
       </div>
     </footer>

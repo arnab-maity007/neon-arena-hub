@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X, Moon, Sun, ChevronDown } from 'lucide-react';
@@ -31,7 +30,6 @@ const Navbar = () => {
   };
 
   React.useEffect(() => {
-    // Set initial dark mode state
     document.documentElement.classList.add('dark');
   }, []);
 
@@ -43,7 +41,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
               <span className="text-2xl font-orbitron font-bold tracking-wider text-neon-blue">
-                NEON<span className="text-neon-purple">ARENA</span>
+                ARENA<span className="text-neon-purple">X</span>
               </span>
             </Link>
           </div>

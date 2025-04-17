@@ -13,12 +13,12 @@ const CallToAction = () => {
       <div className="container px-4 mx-auto relative z-10">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <h2 className="text-3xl md:text-4xl font-bold">
-            Ready to Join the <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-blue to-neon-purple">NeonArena</span> Community?
+            Ready to Join the <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-blue to-neon-purple">ArenaX</span> Community?
           </h2>
           
           <p className="text-lg text-muted-foreground">
             Whether you're looking to host competitive tournaments or showcase your gaming skills,
-            NeonArena provides the platform you need to succeed in the esports ecosystem.
+            ArenaX provides the platform you need to succeed in the esports ecosystem.
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
