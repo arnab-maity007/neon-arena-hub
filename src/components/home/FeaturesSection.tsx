@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Shield, Trophy, BadgeCheck, CoinsStacked, LineChart, Clock } from 'lucide-react';
+import { Shield, Trophy, BadgeCheck, Coins, LineChart, Clock } from 'lucide-react';
 
 const features = [
   {
@@ -19,7 +18,7 @@ const features = [
     description: "Organizers are thoroughly vetted and can earn reputation scores based on tournament execution."
   },
   {
-    icon: <CoinsStacked className="h-10 w-10 text-neon-blue" />,
+    icon: <Coins className="h-10 w-10 text-neon-blue" />,
     title: "Secure Prize Pools",
     description: "Transparent prize pool management with secure distribution to winners using smart escrow system."
   },
