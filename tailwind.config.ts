@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				neon: {
+					blue: "#00FFFF",
+					purple: "#8A2BE2",
+					green: "#39FF14",
+					pink: "#FF10F0"
 				}
 			},
 			borderRadius: {
@@ -84,11 +91,37 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'pulse-glow': {
+					'0%, 100%': { 
+						boxShadow: '0 0 5px 0px rgba(0, 255, 255, 0.5)',
+						borderColor: 'rgba(0, 255, 255, 0.5)'
+					},
+					'50%': { 
+						boxShadow: '0 0 20px 2px rgba(0, 255, 255, 0.7)',
+						borderColor: 'rgba(0, 255, 255, 0.8)'
+					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0px)' },
+					'50%': { transform: 'translateY(-10px)' }
+				},
+				'glow': {
+					'0%, 100%': { textShadow: '0 0 5px rgba(0, 255, 255, 0.5)' },
+					'50%': { textShadow: '0 0 20px rgba(0, 255, 255, 0.8), 0 0 30px rgba(0, 255, 255, 0.6)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-glow': 'pulse-glow 2s infinite',
+				'float': 'float 3s ease-in-out infinite',
+				'glow': 'glow 2s ease-in-out infinite'
+			},
+			fontFamily: {
+				orbitron: ['Orbitron', 'sans-serif'],
+				rajdhani: ['Rajdhani', 'sans-serif'],
+				poppins: ['Poppins', 'sans-serif']
 			}
 		}
 	},
